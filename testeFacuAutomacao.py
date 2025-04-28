@@ -7,13 +7,13 @@ contatos = [
 ]
 # Coleta números de telefone do usuário
 while True:
-    novo_numero = input("Digite um número de telefone para enviar o ZAP (ou 'sair' para terminar e manda zap somente para os da lista): ")
+    novo_numero = input("Digite um número de telefone para enviar o ZAP (ou 'sair' para terminar e manda ZAP somente para os nomes da lista): ")
     if novo_numero.lower() == 'sair':
         break
     contatos.append(novo_numero)  # Adiciona o número à lista de contatos
 
 # Mensagem a ser enviada
-mensagem = "Olá, esta é uma mensagem automatizada do programador HUGO que esta criando essa API. Tenha um ótima dia e bora pra CIMA BRASIL !"
+mensagem = "Olá, esta é uma mensagem automatizada do programador HUGO um pequeno script de automação em massa. Tenha um ótima dia e bora pra CIMA BRASIL !"
 
 # Função para enviar mensagens
 def enviar_mensagens(contatos, mensagem):
@@ -32,7 +32,7 @@ def enviar_mensagens(contatos, mensagem):
             kit.sendwhatmsg(numero, mensagem, hora, minuto)
             
             print(f"Mensagem enviada para {numero}")
-            time.sleep(30)  # Aguarda 30 segundos antes de enviar para o próximo contato
+            time.sleep(30)  # Aguarda 30 segundos antes de enviar para o próximo contato para não sobre-carregar o sistema
             
         except Exception as e:
             
