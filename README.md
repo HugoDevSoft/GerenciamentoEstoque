@@ -17,7 +17,7 @@ O objetivo foi aplicar os conceitos de classes, listas e manipulação de dados 
 ## Como executar
 1. Clone o repositório
 2. git clone https://github.com/HugoDevSoft/GerenciamentoEstoque/blob/main/GerenciaEstoque.py
-3. Rode `python sistema_bancario.py` no terminal
+3. Rode `python GerenciaEstoque.py` no terminal
 
 ## Melhorias futuras
 Integração com banco de dados.
