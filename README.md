@@ -1,4 +1,6 @@
 # Sistema GerenciamentoEstoque em Python
+![image](https://github.com/user-attachments/assets/58985ec3-e235-43f2-82b0-2ca0e7cd7c46)
+
 
 Projeto de controle de estoque feito em Python, com objetivo de praticar conceitos de programação orientada a objetos, manipulação de arquivos e lógica de negócios.
 
